@@ -483,7 +483,8 @@ def gen_sh(
   --discrete_flow_shift 3.1582 {line_break}
   --model_prediction_type raw {line_break}
   --guidance_scale {guidance_scale} {line_break}
-  --loss_type l2 {line_break}"""
+  --loss_type l2 {line_break}
+  --network_args "img_attn_dim=8" "img_mlp_dim=16" "txt_attn_dim=8" "txt_mlp_dim=8" "img_mod_dim=8" "txt_mod_dim=8" "single_dim=16" "single_mod_dim=8" {line_break}"""
    
 
 
